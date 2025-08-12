@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layanan - PixelCraft Studio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">PixelCraft Studio</div>
+            <ul class="nav-links">
+                <li><a href="index.html">Beranda</a></li>
+                <li><a href="services.html" class="active">Layanan</a></li>
+                <li><a href="index.html#tentang">Tentang</a></li>
+                <li><a href="index.html#kontak">Kontak</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="services">
+        <h2>Layanan Kami</h2>
+        <div class="service-list">
+            <div class="service-card">
+                <h3>Desain Grafis</h3>
+                <p>Membuat desain logo, banner, brosur, dan materi promosi profesional untuk bisnis Anda.</p>
+                <a href="#pesan" class="btn">Mulai dari Rp75k</a>
+            </div>
+            <div class="service-card">
+                <h3>Pengembangan Web</h3>
+                <p>Membangun website modern, responsif, dan cepat sesuai kebutuhan bisnis Anda.</p>
+                <a href="#pesan" class="btn">Mulai dari Rp1.500k</a>
+            </div>
+            <div class="service-card">
+                <h3>Pemasaran Digital</h3>
+                <p>Meningkatkan visibilitas bisnis melalui strategi SEO, iklan online, dan media sosial.</p>
+                <a href="#pesan" class="btn">Mulai dari Rp550k</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="pesan" class="pesan">
+    <h2>Form Pemesanan</h2>
+    <form id="orderForm">
+        <input type="text" id="nama" placeholder="Nama" required>
+        <input type="email" id="email" placeholder="Email" required>
+        <select id="layanan" required>
+            <option value="">Pilih Layanan</option>
+            <option value="Desain Grafis">Desain Grafis</option>
+            <option value="Pengembangan Web">Pengembangan Web</option>
+            <option value="Pemasaran Digital">Pemasaran Digital</option>
+        </select>
+        <textarea id="deskripsi" placeholder="Deskripsi Proyek" required></textarea>
+        <button type="submit" class="btn">Kirim Pesanan</button>
+    </form>
+</section>
+
+
+    <footer>
+        <p>© 2025 PixelCraft Studio. Semua Hak Dilindungi.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
